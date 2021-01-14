@@ -11,7 +11,7 @@ class Penne : public Makaron {
     double ileMaki(unsigned int P) const {
       return (double) P;
     }
-}
+};
 
 // tutaj definicja metody gotujMakaron
 
