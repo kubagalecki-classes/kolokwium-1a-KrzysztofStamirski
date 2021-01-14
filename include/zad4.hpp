@@ -3,7 +3,7 @@
 #include <vector>
 
 // tutaj funkcja obliczMake
-double obliczMake(std::vector<Tagliatelle> t){
+double obliczMake(std::vector<Tagliatelle>& t){
   Tagliatelle pierwszy = t.front();
   Tagliatelle przedostatni = t.at(t.size()-2);
   Tagliatelle trzeciOdKonca = t.at(t.size() - 3);
