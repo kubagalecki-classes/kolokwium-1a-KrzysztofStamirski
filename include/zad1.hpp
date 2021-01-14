@@ -21,7 +21,7 @@ class Tagliatelle{
     W=0.5;
     R=0.5;
     }
-    double ileMaki(const unsigned int P){
+    double ileMaki(unsigned int P) const{
       return P * L * W * (1.0 - R) * C;
     }
 
